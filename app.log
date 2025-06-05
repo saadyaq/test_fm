@@ -1,0 +1,26 @@
+2025-05-06 01:01:01,195 - INFO - Clé API Groq chargée : Masquée
+2025-05-06 01:01:09,609 - INFO - Clé API Groq chargée : Masquée
+2025-05-06 01:01:09,658 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-06 01:01:10,038 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-06 01:01:10,038 - INFO - Texte extrait du PDF : MADY FADOUA
+ÉlèveingénieureenBigDataetStatistiqueappliquée,passionnéeparl’analysede
+données,Machinel...
+2025-05-06 01:01:10,039 - ERROR - Erreur lors du traitement du CV : Replacement index 0 out of range for positional args tuple
+Traceback (most recent call last):
+  File "C:\Users\AdMin\Desktop\chatbot_rh_jesa\app.py", line 119, in <module>
+    prompt = CV_PROMPT_TEMPLATE.format(cv_text=text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: Replacement index 0 out of range for positional args tuple
+2025-05-06 01:04:48,493 - INFO - Clé API Groq chargée : Masquée
+2025-05-06 01:04:56,109 - INFO - Clé API Groq chargée : Masquée
+2025-05-06 01:04:56,145 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-06 01:04:56,519 - WARNING - CropBox missing from /Page, defaulting to MediaBox
+2025-05-06 01:04:56,519 - INFO - Texte extrait du PDF : MADY FADOUA
+ÉlèveingénieureenBigDataetStatistiqueappliquée,passionnéeparl’analysede
+données,Machinel...
+2025-05-06 01:04:56,520 - ERROR - Erreur lors du traitement du CV : Replacement index 0 out of range for positional args tuple
+Traceback (most recent call last):
+  File "C:\Users\AdMin\Desktop\chatbot_rh_jesa\app.py", line 119, in <module>
+    prompt = CV_PROMPT_TEMPLATE.format(cv_text=text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: Replacement index 0 out of range for positional args tuple
