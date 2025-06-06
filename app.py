@@ -8,8 +8,8 @@ import logging
 # Configurer les logs
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Désactiver le gestionnaire d'événements asynchrones pour éviter les erreurs avec PyTorch
-asyncio.set_event_loop_policy(None)
+# Configure an independent event loop to avoid conflicts with PyTorch
+asyncio.set_event_loop(asyncio.new_event_loop())
 
 # Initialisation de embedding_model après le démarrage de Streamlit
 embedding_model = None
